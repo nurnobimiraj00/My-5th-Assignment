@@ -1,0 +1,43 @@
+
+.search-area{
+    width: 405px;
+    text-align: center;
+    background-color: white;
+}
+#matchedMeals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px;
+}
+.meal-card{
+    border-color: white;
+    margin: 10px;
+    
+}
+.card-body , .ingredientsCard{
+    background-color: #F8F7F5;
+    font-weight: 700;
+    border-radius: 10px;
+}
+#searchInput{
+    width: 60%;
+    height: 35px;
+}
+#searchSection{
+    margin-top: 30px;
+    margin-left:20% ;
+    margin-right: 20%;
+}
+#ingredientInfoSection{
+    margin-top: 20px;
+}
+.nav{
+    margin-left: 600px;
+}
+.nav ul li a{
+    color: gray;
+}
+.card-text{
+    text-align: center;
+    color: rgb(109, 73, 5);
+}
